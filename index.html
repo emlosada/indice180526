@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Índice de Proyectos</title>
+    <style>
+        /* Estilos Generales */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 3px solid #2c3e50;
+            padding-bottom: 20px;
+        }
+
+        header h1 {
+            color: #2c3e50;
+            margin: 0 0 10px 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            color: #7f8c8d;
+            margin: 0;
+            font-size: 1.1rem;
+        }
+
+        /* Estilos de las Categorías */
+        .category-block {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            padding: 25px;
+            margin-bottom: 30px;
+            border-left: 5px solid #3498db; /* Color azul para BI */
+        }
+
+        /* Color diferente para la categoría "Varios" */
+        .category-block.varios {
+            border-left-color: #95a5a6; /* Color gris */
+        }
+
+        .category-title {
+            color: #2c3e50;
+            margin-top: 0;
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Estilos de la lista de links */
+        .project-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .project-item {
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px id #ecf0f1;
+        }
+
+        .project-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        /* Estilos de los Links */
+        .project-link {
+            color: #2980b9;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: color 0.2s ease-in-out;
+            display: inline-block;
+        }
+
+        .project-link:hover {
+            color: #1abc9c;
+            text-decoration: underline;
+        }
+
+        .project-description {
+            margin: 5px 0 0 0;
+            color: #7f8c8d;
+            font-size: 0.95rem;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            color: #bdc3c7;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <header>
+            <h1>Mis Proyectos</h1>
+            <p>Repositorio de trabajos, reportes y experimentos visuales.</p>
+        </header>
+
+        <!-- CATEGORÍA 1: BI -->
+        <section class="category-block">
+            <h2 class="category-title">📊 BI Analyst / Business Intelligence</h2>
+            <ul class="project-list">
+                
+                <li class="project-item">
+                    <a href="https://emlosada.github.io/diputadosproyectos180526/" target="_blank" class="project-link">Proyectos Diputados</a>
+                    <p class="project-description">Proyectos presentados por los Diputados con diferentes metricas al 18/05/26</p>
+                </li>
+
+                <li class="project-item">
+                    <a href="https://emlosada.github.io/bloques180526/" class="project-link">Bloques Diputados</a>
+                    <p class="project-description">Analisis de los bloques e interacciones al 2017-2026 18/05/26</p>
+                </li>
+
+				<li class="project-item">
+                    <a href="https://emlosada.github.io/becas180526/" class="project-link">Becas y subsidios</a>
+                    <p class="project-description">Analisis de becas otorgadas por los Diputados 2016-2024</p>
+                </li>
+
+                
+
+            </ul>
+        </section>
+
+        <!-- CATEGORÍA 2: VARIOS -->
+        <section class="category-block varios">
+            <h2 class="category-title">📁 Varios</h2>
+            <ul class="project-list">
+                
+                <li class="project-item">
+                    <a href="https://emlosada.github.io/musica180526/" class="project-link">Reproductor de Musica</a>
+                    <p class="project-description">Reproductor de Musica simple con letras</p>
+                </li>
+
+                <li class="project-item">
+                    <a href="https://emlosada.github.io/rabbithole/" class="project-link">Rabit Hole</a>
+                    <p class="project-description">Repositorio de teorias ocultas, con varias funciones (incluye easter egg)</p>
+                </li>
+
+               
+
+            </ul>
+        </section>
+
+        <footer>
+            <p>© 2026 - Actualizado continuamente</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
